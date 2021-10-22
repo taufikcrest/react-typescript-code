@@ -1,0 +1,130 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+
+body {
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #EFEFEF;
+}
+.logo-img {
+  height: 90%;
+  width: auto;
+  padding: 0px 30px;
+}
+
+.form-wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+nav {
+  margin: 0 auto;
+  background: #030303;
+  height: 70px;
+  line-height: 70px;
+}
+nav ul {
+  display: inline-flex;
+}
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  padding: 0 30px;
+}
+nav ul li a {
+  margin: 50px 0;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+table {
+  margin-top: 50px;
+}
+.App-link {
+  color: #61dafb;
+}
+.button,.outline-button:hover {
+  color: #fff;
+  background-color: #282c34;
+  border-color: #282c34;
+}
+.outline-button,.button:hover {
+  color: #282c34;
+  background-color: transparent;
+  background-image: none;
+  border-color: #282c34;
+}
+
+.home-page-h1 {
+  color: #8cc713;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.welcome-text {
+  float: right;
+  padding-right: 30px;
+  color: #fff;
+}
+
+.without-background-alert {
+  background-color: unset;
+  border-color: unset;
+  padding: 0px;
+  border: unset;
+}
+
+.sign-up-container {
+  padding: 20px !important;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
